@@ -1,6 +1,8 @@
-import { SanityClient } from "@sanity/client";
+const sanityClient = require("@sanity/client");
 
-export default SanityClient({
+const client = sanityClient({
   projectId: "d3dsbxfz",
-  dataset: "production"
-})
+  dataset: "production",
+});
+
+module.exports = client;
