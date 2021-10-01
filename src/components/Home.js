@@ -12,6 +12,7 @@ function Home() {
             display: "flex",
             width: "100%",
             height: "100%",
+            flexDirection: "column",
             justifyContent: "center",
             alignItems: "center",
             zIndex: "1",
@@ -26,18 +27,6 @@ function Home() {
           >
             Hi, I'm Kody.
           </h1>
-        </section>
-        <section
-          style={{
-            color: "white",
-            display: "flex",
-            width: "100%",
-            height: "100%",
-            justifyContent: "center",
-            alignItems: "center",
-            zIndex: "1",
-          }}
-        >
           <p
             className="text-4xl mt-10 px-8"
             style={{
@@ -46,6 +35,24 @@ function Home() {
             }}
           >
             Aspiring Shadowy Super Coder.
+          </p>
+          <p
+            className="text-4xl font-italic mt-10 px-8"
+            style={{
+              position: "relative",
+              display: "flex",
+            }}
+          >
+            "Proof-of-Work Speaks For Itself"
+          </p>
+          <p
+            className="text-4xl mt-10 px-8"
+            style={{
+              position: "relative",
+              display: "flex",
+            }}
+          >
+            - Satoshi Nakamoto
           </p>
         </section>
       </div>
