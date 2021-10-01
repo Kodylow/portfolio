@@ -36,7 +36,7 @@ function SinglePost() {
     );
 
   return (
-    <main className="bg-gray-900 min-h-screen p-12">
+    <main className="bg-gray-900 min-h-screen p-12 pt-40">
       <article className="container shadow-lg mx-auto border-4 rounded-lg">
         <header>
           <h1

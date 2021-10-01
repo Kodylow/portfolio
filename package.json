@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "http://kodybitcoin.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -51,6 +52,5 @@
     "autoprefixer": "^9.8.7",
     "postcss": "^7.0.38",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.16"
-  },
-  "homepage": "http://kodylow.github.io/portfolio"
+  }
 }

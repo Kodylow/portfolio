@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <header
       style={{
-        position: "relative",
+        position: "fixed",
         width: "100%",
         zIndex: 2,
         boxShadow: "0 6px 20px 0 rgba(256, 256, 256, 0.4)",

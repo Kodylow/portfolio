@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import client from "../client.js";
+import photo from "../ali&meLaserEyes.png";
 
 function About() {
   return (
-    <main className="bg-gray-900 min-h-screen p-12">
+    <main className="bg-gray-900 min-h-screen p-12 pt-40">
       <div>
         <section
           className="text-gray-300 z:10"
@@ -15,7 +15,10 @@ function About() {
             zIndex: "1",
           }}
         >
-          <h1 className="relative text-4xl mt-10 px-8">Me in a Minute</h1>
+          <img className="rounded-full" src={photo} alt="lasereyes" />
+          <h1 className="relative font-bold text-4xl mt-10 text-center">
+            Me in a Minute
+          </h1>
           <p className="relative text-3xl mt-10 px-8">
             I’m a full stack developer and bitcoiner. I want to spend the rest
             of my life building bitcoin and lightning{" "}
@@ -29,7 +32,7 @@ function About() {
             moment learning and teaching about bitcoin, but{" "}
             <em className="text-yellow-500">Cypherpunks write code</em> and I
             know that building software myself is the highest impact and most
-            important thing I can do for the rest of my life.
+            important thing I can do with my life.
           </p>
         </section>
       </div>

@@ -25,7 +25,7 @@ function Post() {
   }, []);
 
   return (
-    <main className="bg-gray-900 min-h-screen p-12">
+    <main className="bg-gray-900 min-h-screen p-12 pt-40">
       <section className="container mx-auto">
         <h1 className="text-6xl flex justify-center mb-4">Blog Posts</h1>
         <h2 className="text-2xl text-gray-100 flex justify-center mb-12">
