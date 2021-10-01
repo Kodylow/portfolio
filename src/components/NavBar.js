@@ -9,7 +9,7 @@ function NavBar() {
         position: "relative",
         width: "100%",
         zIndex: 2,
-        boxShadow: "0 -2px 10px rgba(0, 0, 0, 1)",
+        boxShadow: "0 6px 20px 0 rgba(256, 256, 256, 0.4)",
       }}
       className="bg-gray-800"
     >

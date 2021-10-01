@@ -18,40 +18,16 @@ function Home() {
             zIndex: "1",
           }}
         >
-          <h1
-            className="text-9xl font-semibold lg:pt-80 sm:pt-40 px-auto"
-            style={{
-              position: "relative",
-              display: "flex",
-            }}
-          >
+          <h1 className="relative flex text-9xl font-semibold lg:pt-80 sm:pt-40 px-auto">
             Hi, I'm Kody.
           </h1>
-          <p
-            className="text-4xl mt-10 px-8"
-            style={{
-              position: "relative",
-              display: "flex",
-            }}
-          >
+          <p className="relative flex text-4xl mt-10 px-8">
             Aspiring Shadowy Super Coder.
           </p>
-          <p
-            className="text-4xl font-italic mt-10 px-8"
-            style={{
-              position: "relative",
-              display: "flex",
-            }}
-          >
+          <p className="relative flex text-4xl mt-10 px-8">
             "Proof-of-Work Speaks For Itself"
           </p>
-          <p
-            className="text-4xl mt-10 px-8"
-            style={{
-              position: "relative",
-              display: "flex",
-            }}
-          >
+          <p className="relative flex text-4xl mt-10 px-8">
             - Satoshi Nakamoto
           </p>
         </section>
