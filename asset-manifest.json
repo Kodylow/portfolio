@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d00bd5e9.chunk.css",
-    "main.js": "/static/js/main.1a45e77e.chunk.js",
-    "main.js.map": "/static/js/main.1a45e77e.chunk.js.map",
+    "main.css": "/static/css/main.5f3f376f.chunk.css",
+    "main.js": "/static/js/main.6622ba5d.chunk.js",
+    "main.js.map": "/static/js/main.6622ba5d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
     "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
     "static/js/2.ba4c6ffa.chunk.js": "/static/js/2.ba4c6ffa.chunk.js",
     "static/js/2.ba4c6ffa.chunk.js.map": "/static/js/2.ba4c6ffa.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d00bd5e9.chunk.css.map": "/static/css/main.d00bd5e9.chunk.css.map",
+    "static/css/main.5f3f376f.chunk.css.map": "/static/css/main.5f3f376f.chunk.css.map",
     "static/js/2.ba4c6ffa.chunk.js.LICENSE.txt": "/static/js/2.ba4c6ffa.chunk.js.LICENSE.txt",
     "static/media/ali&meLaserEyes.0a370be5.png": "/static/media/ali&meLaserEyes.0a370be5.png",
     "static/media/index.css": "/static/media/matrix.77b36b5e.ttf",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.f027f2bf.js",
     "static/js/2.ba4c6ffa.chunk.js",
-    "static/css/main.d00bd5e9.chunk.css",
-    "static/js/main.1a45e77e.chunk.js"
+    "static/css/main.5f3f376f.chunk.css",
+    "static/js/main.6622ba5d.chunk.js"
   ]
 }
