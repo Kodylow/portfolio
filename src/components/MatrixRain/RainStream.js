@@ -60,7 +60,7 @@ const RainStream = (props) => {
       setStream([]);
       const newStream = getRandStream();
       setStream(newStream);
-      setTopPadding(newStream.length * -44);
+      setTopPadding(newStream.length * -55);
       setIntervalDelay(null);
       setTimeout(
         () =>

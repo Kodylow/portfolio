@@ -46,7 +46,7 @@ function Post() {
                       className="w-full h-full rounded-r object-cover absolute"
                     />
                     <span className="block relative h-full flex justify-end items-start pr-4 pb-4">
-                      <h3 className="text-gray-200 text-lg px-3 py-4 font-bold bg-gray-700 text-gray-100 bg-opacity-75 rounded">
+                      <h3 className="text-gray-200 text-2xl px-3 py-4 font-bold bg-gray-700 text-gray-100 bg-opacity-75 rounded">
                         {post.title}
                       </h3>
                     </span>
