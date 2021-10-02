@@ -24,11 +24,10 @@ function About() {
             <em className="text-yellow-500">tools that people love</em>. I
             served as a Marine Infantry Officer after college because I believed
             in supporting and defending the freedoms the U.S. was founded on. I
-            learned to lead and manage in chaotic environments, and to take
-            ownership and responsibility for succeeding as a team. Today, I
-            think <em className="text-yellow-500">bitcoin is hope</em> for
-            freedom and property rights for billions. I spend every waking
-            moment learning and teaching about bitcoin, but{" "}
+            learned to lead and trive in chaotic environments. Today, I think{" "}
+            <em className="text-yellow-500">bitcoin is hope</em> for freedom and
+            property rights for billions. I spend every waking moment learning
+            and teaching about bitcoin, but{" "}
             <em className="text-yellow-500">Cypherpunks write code</em> and I
             know that building software myself is the highest impact and most
             important thing I can do with my life.

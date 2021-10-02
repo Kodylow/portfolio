@@ -44,7 +44,7 @@ function Project() {
                 <div className="text-yellow-600 text-xs space-x-4">
                   <span>
                     <strong className="font-bold">
-                      {new Date(project.date).toLocaleDateString()}
+                      {project.technologies}
                     </strong>
                   </span>
                   <p className="my-6 text-lg text-gray-700 leading-relaxed">
