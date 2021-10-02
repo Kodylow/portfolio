@@ -7,7 +7,7 @@ function Home() {
       <div>
         <MatrixRain style={{ zIndex: 0 }} />
         <section
-          className="pt-40 text-center"
+          className="pt-20 text-center"
           style={{
             color: "white",
             display: "flex",
@@ -19,7 +19,7 @@ function Home() {
             zIndex: "1",
           }}
         >
-          <h1 className="relative flex text-9xl font-semibold lg:pt-80 sm:pt-40">
+          <h1 className="relative flex text-9xl font-semibold lg:pt-60 pt-40">
             Hi, I'm Kody.
           </h1>
           <p className="relative flex text-4xl mt-10">
