@@ -93,8 +93,7 @@ const RainStream = (props) => {
       }}
     >
       {stream.map((char, index) => (
-        <a
-          href="#"
+        <span
           key={index}
           style={{
             marginTop: -4,
@@ -108,7 +107,7 @@ const RainStream = (props) => {
           }}
         >
           {char}
-        </a>
+        </span>
       ))}
     </div>
   );
