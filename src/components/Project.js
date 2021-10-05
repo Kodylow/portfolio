@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from "react";
 import client from "../client";
+import imageUrlBuilder from "@sanity/image-url";
+
+const builder = imageUrlBuilder(client);
+
+function urlFor(source) {
+  let str = builder.image(source).url();
+
+  return str.slice(0, 4) + str.slice(5);
+}
 
 function Project() {
   const [projectData, setProjectData] = useState(null);
@@ -33,46 +42,50 @@ function Project() {
         </h2>
         <section className="grid lg:grid-cols-2 sm:grid-cols-1 gap-8">
           {projectData &&
-            projectData.map((project, index) => (
-              <article
-                key={index}
-                className="relative rounded-lg shadow-xl bg-gray-200 p-16"
-              >
-                <h3 className="text-gray-800 text-3xl font-bold mb-2">
-                  {project.title}
-                </h3>
-                <div className="text-yellow-600 text-xs space-x-4">
-                  <span>
-                    <strong className="font-bold">
-                      {project.technologies}
-                    </strong>
-                  </span>
-                  <p className="my-6 text-lg text-gray-700 leading-relaxed">
-                    {project.inspiration}
-                  </p>
-                  <span className="flex justify-around gap-8">
-                    <a
-                      href={project.github}
-                      alt="github_repo"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-white text-2xl font-bold px-6 py-3 rounded bg-gray-900 hover:bg-gray-400 transform transition duration-500 hover:scale-110"
-                    >
-                      Github Repo
-                    </a>
-                    <a
-                      href={project.youtube}
-                      alt="github_repo"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-white text-2xl font-bold px-6 py-3 rounded bg-gray-900 hover:bg-gray-400 transform transition duration-500 hover:scale-110"
-                    >
-                      Demo Video
-                    </a>
-                  </span>
-                </div>
-              </article>
-            ))}
+            projectData.map((project, index) => {
+              return (
+                <article
+                  key={index}
+                  className="relative rounded-lg shadow-xl bg-gray-200 p-16"
+                >
+                  <h3 className="text-gray-800 text-3xl font-bold mb-2">
+                    {project.title}
+                  </h3>
+                  <div className="text-yellow-600 text-xs space-x-4">
+                    <span>
+                      <strong className="font-bold">
+                        {project.technologies}
+                      </strong>
+                    </span>
+                    <p className="my-6 text-lg text-gray-700 leading-relaxed">
+                      {project.inspiration}
+                    </p>
+                    <span className="flex justify-around gap-8">
+                      {project.github ? (
+                        <a
+                          href={project.github}
+                          alt="github_repo"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-white text-2xl font-bold px-6 py-3 rounded bg-gray-900 hover:bg-gray-400 transform transition duration-500 hover:scale-110"
+                        >
+                          Github Repo
+                        </a>
+                      ) : null}
+                      <a
+                        href={project.youtube}
+                        alt="github_repo"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white text-2xl font-bold px-6 py-3 rounded bg-gray-900 hover:bg-gray-400 transform transition duration-500 hover:scale-110"
+                      >
+                        Demo Video
+                      </a>
+                    </span>
+                  </div>
+                </article>
+              );
+            })}
         </section>
       </section>
     </main>

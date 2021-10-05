@@ -19,28 +19,28 @@ function NavBar() {
             to="/"
             exact
             activeClassName="underline"
-            className="inline-flex items-center py-6 px-3 mr-4 text-yellow-500 hover:text-white text-3xl font-bold tracking-widest"
+            className="inline-flex items-center py-6 px-3 mr-4 text-yellow-500 hover:text-white text-3xl font-bold tracking-widest sm:text-4xl"
           >
             Kody
           </NavLink>
           <NavLink
             to="/post"
             activeClassName="underline bg-gray-600"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-500 hover:text-white text-1xl"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-500 hover:text-white text-1xl sm:text-4xl"
           >
             Posts
           </NavLink>
           <NavLink
             to="/project"
             activeClassName="underline bg-gray-600"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-500 hover:text-white text-1xl"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-500 hover:text-white text-1xl sm:text-4xl"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
             activeClassName="underline bg-gray-600"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-500 hover:text-white text-1xl"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-yellow-500 hover:text-white text-1xl sm:text-4xl"
           >
             About Me
           </NavLink>

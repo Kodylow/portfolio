@@ -33,27 +33,32 @@ function Post() {
         </h2>
         <div className="grid md;grid-cols-1 lg:grid-cols-3 gap-10">
           {postData &&
-            postData.map((post, index) => (
-              <article key={index}>
-                <Link to={"/post/" + post.slug.current} key={post.slug.current}>
-                  <span
-                    className="block h-64 relative rounded shadow leading-snug border-l-8 border-white transform transition duration-500 hover:scale-110"
-                    key={index}
+            postData.map((post, index) => {
+              return (
+                <article key={index}>
+                  <Link
+                    to={"/post/" + post.slug.current}
+                    key={post.slug.current}
                   >
-                    <img
-                      src={post.mainImage.asset.url}
-                      alt={post.mainImage.alt}
-                      className="w-full h-full rounded-r object-cover absolute"
-                    />
-                    <span className="block relative h-full flex justify-end items-start pr-4 pb-4">
-                      <h3 className="text-gray-200 text-2xl px-3 py-4 font-bold bg-gray-700 text-gray-100 bg-opacity-75 rounded">
-                        {post.title}
-                      </h3>
+                    <span
+                      className="block h-64 relative rounded shadow leading-snug border-l-8 border-white transform transition duration-500 hover:scale-110"
+                      key={index}
+                    >
+                      <img
+                        src={post.mainImage.asset.url}
+                        alt={post.mainImage.alt}
+                        className="w-full h-full rounded-r object-cover absolute"
+                      />
+                      <span className="block relative h-full flex justify-end items-start pr-4 pb-4">
+                        <h3 className="text-gray-200 text-2xl px-3 py-4 font-bold bg-gray-700 text-gray-100 bg-opacity-75 rounded">
+                          {post.title}
+                        </h3>
+                      </span>
                     </span>
-                  </span>
-                </Link>
-              </article>
-            ))}
+                  </Link>
+                </article>
+              );
+            })}
         </div>
       </section>
     </main>

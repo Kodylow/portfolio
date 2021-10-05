@@ -24,7 +24,7 @@ function About() {
             <em className="text-yellow-500">tools that people love</em>. I
             served as a Marine Infantry Officer after college because I believed
             in supporting and defending the freedoms the U.S. was founded on. I
-            learned to lead and trive in chaotic environments. Today, I think{" "}
+            learned to lead and thrive in chaotic environments. Today, I think{" "}
             <em className="text-yellow-500">bitcoin is hope</em> for freedom and
             property rights for billions. I spend every waking moment learning
             and teaching about bitcoin, but{" "}

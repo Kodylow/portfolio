@@ -40,7 +40,7 @@ function SinglePost() {
       <article className="container shadow-lg mx-auto border-4 rounded-lg">
         <header>
           <h1
-            className="text-yellow-500 text-center pt-40 pb-10 lg:text-9xl text-6xl"
+            className="text-yellow-500 text-center pt-40 pb-10 lg:text-9xl text-6xl transition duration-500 ease-in"
             style={{
               backgroundImage: `url(${photo})`,
               backgroundSize: "contain",
@@ -51,7 +51,7 @@ function SinglePost() {
             {singlePost.title}
           </h1>
         </header>
-        <div className="px-16 lg:px-48 py-12 lg:py-20 prose lg:prose-xl text-gray-50 max-w-full">
+        <div className="px-16 lg:px-48 py-12 lg:py-20 text-xl sm:text-2xl text-gray-50 max-w-full">
           <BlockContent
             blocks={singlePost.body}
             projectId="d3dsbxfz"
